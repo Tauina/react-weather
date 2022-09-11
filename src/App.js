@@ -1,4 +1,5 @@
-import './App.css';
+import "./App.css";
+import Search from "./Search";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <a href="/">Sydney</a>
           <a href="/">San Francisco</a>
         </header>
+        <Search defaultCity="Faro" />
       </div>
       <footer>
         This App was coded by{" "}
