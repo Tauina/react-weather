@@ -1,0 +1,32 @@
+.more-info {
+  font-size: 16px;
+  color: gray;
+}
+
+.temp-today {
+  float: left;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  padding-left: 10px;
+}
+
+.icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.unit {
+  float: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.today-info h1 {
+  margin: 0;
+}
+
+.today-info div {
+  color: gray;
+  font-size: 18px;
+}
