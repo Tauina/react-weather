@@ -28,6 +28,7 @@ export default function Forecast(props) {
         </div>
       </div>
     );
+    
   } else {
     let units = "metric";
     let latitude = props.coordinates.lat;
