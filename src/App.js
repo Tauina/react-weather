@@ -22,7 +22,7 @@ function App() {
         </a>{" "}
         and is{" "}
         <a
-          href="https://github.com/Tauina/weather-react"
+          href="https://github.com/Tauina/react-weather"
           target="_blank"
           rel="noreferrer"
         >
@@ -30,7 +30,7 @@ function App() {
         </a>{" "}
         and{" "}
         <a
-          href="https://peppy-mermaid-b65ea5.netlify.app/"
+          href="https://magenta-dango-b8c42c.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
