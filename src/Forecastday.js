@@ -19,6 +19,11 @@ export default function ForecastDay(props) {
     return days[day];
   }
 
+  function uvindex() {
+    let uvi = Math.round(props.data.uvi);
+    return `UV ${uvi}`;
+  }
+
   return (
     <div>
       <div className="forecast-day">{day()}</div>
@@ -27,6 +32,7 @@ export default function ForecastDay(props) {
         <span className="forecast-temp-max">{maxTemperature()}</span>
         <span className="forecast-temp-min">{minTemperature()}</span>
       </div>
+      <div className="uvIndex">{uvindex()}</div>
     </div>
   );
 }

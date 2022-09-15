@@ -12,13 +12,42 @@
 }
 
 .Weather-App {
-  border: 1px solid gray;
   padding: 20px;
   max-width: 620px;
   border-radius: 10px;
+  border: 1px solid gray;
 }
 
 .Weather-App a {
   margin: 10px;
   text-decoration: none;
 }
+
+.CG {
+  width: 100px;
+}
+
+.banner {
+  width: 80%;
+}
+.Search .btn {
+  color: #013950;
+  border-color: #013950;
+  border: solid 1.5px;
+}
+
+.Search .form {
+  color: #013950;
+}
+
+.WeatherInfo .more-info {
+  color: gray;
+}
+
+@media (max-width: 720px) {
+  .Search .btn {
+    font-size: 13px;
+    text-align: center;
+    border: none;
+  }
+} ;

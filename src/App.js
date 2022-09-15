@@ -1,15 +1,17 @@
 import "./App.css";
 import Search from "./Search";
+import CG from "./images/CG.png";
+import banner from "./images/banner.jpg";
 
 function App() {
   return (
     <div className="App">
       <div className="Weather-App">
         <header className="App-header">
-          <a href="/">Lisbon</a>
-          <a href="/">Paris</a>
-          <a href="/">Sydney</a>
-          <a href="/">San Francisco</a>
+          <div className="row">
+            <img src={CG} alt="logo" className="CG" />
+            <img src={banner} alt="logo" className="banner d-none d-md-block" />
+          </div>
         </header>
         <Search defaultCity="Faro" />
       </div>

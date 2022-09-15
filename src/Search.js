@@ -41,7 +41,7 @@ export default function Search(props) {
   if (weatherData.ready) {
     return (
       <div className="Search">
-        <form onSubmit={handleSubmit}>
+        <form className="form" onSubmit={handleSubmit}>
           <div className="row">
             <div className="col">
               <input
@@ -51,10 +51,10 @@ export default function Search(props) {
                 onChange={SearchCity}
               />
             </div>
-            <div className="col-2">
+            <div className="col-3">
               <input
                 type="Submit"
-                value="🔎"
+                value="Search"
                 className="btn btn-outline-secondary w-100"
               />
             </div>

@@ -2,10 +2,17 @@
   margin-top: 20px;
   text-align: center;
   font-size: 15px;
-  color: gray;
 }
 
+.forecast-temp-max {
+  color: gray;
+}
 .forecast-temp-min {
   opacity: 0.8;
   margin-left: 6px;
+  color: gray;
+}
+
+.uvIndex {
+  opacity: 0.8;
 }

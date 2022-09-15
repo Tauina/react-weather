@@ -5,7 +5,7 @@ import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   return (
-    <div>
+    <div className="WeatherInfo">
       <div className="row">
         <div className="today-info">
           <h1>{props.data.city}</h1>
