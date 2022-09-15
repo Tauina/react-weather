@@ -58,9 +58,6 @@ export default function Search(props) {
                 className="btn btn-outline-secondary w-100"
               />
             </div>
-            <div className="col-2">
-              <button className="btn btn-outline-secondary w-100">📌</button>
-            </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
