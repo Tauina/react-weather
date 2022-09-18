@@ -45,7 +45,7 @@
   color: gray;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .Search .btn {
     font-size: 13px;
     text-align: center;
